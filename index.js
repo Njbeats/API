@@ -43,7 +43,7 @@ next();
 
 const port = process.env.PORT || 8080;
 
-index.listen(port, () => {
+app.listen(port, () => {
     console.log(`Action Group API listening at http://localhost:${port}`);
 });
 
